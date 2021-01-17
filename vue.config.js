@@ -3,13 +3,13 @@ const path = require('path');
 module.exports = {
   configureWebpack: {
     output: {
-      library: 'MegafonOkkla',
+      library: 'ReactionGame',
     },
   },
   productionSourceMap: false,
-  publicPath: process.env.NODE_ENV === 'production'
-    ? '/special-reaction-test/'
-    : '/',
+  publicPath: process.env.NODE_ENV === 'production' ?
+    '/special-reaction-test/' :
+    '/',
   chainWebpack: (config) => {
     const apiClient = process.env.NODE_ENV === 'production' ? 'server' : 'mock';
 

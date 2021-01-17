@@ -32,14 +32,14 @@
             params.css = './all.css?' + ver;
           }
 
-          new MegafonOkkla.Special(params);
+          new ReactionGame.Special(params);
         };
 
         var container = d.getElementById('special');
 
         if (container) {
           d.addEventListener('DOMContentLoaded', function () {
-            if (typeof MegafonOkkla === 'undefined') {
+            if (typeof ReactionGame === 'undefined') {
               var s = d.createElement('script');
 
               s.src = './all.js?' + ver;
