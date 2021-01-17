@@ -115,6 +115,7 @@ body.is-blured-reaction-test>:not(.main)
   pointer-events: none;
 
 .special-reaction-test
+
   -webkit-tap-highlight-color: transparent;
   -webkit-user-select: none;
   -ms-user-select: none;
@@ -133,6 +134,7 @@ body.is-blured-reaction-test>:not(.main)
   background: #FFF4E2
   border-radius: 8px
   margin-top: 28px;
+  padding: 0 20px;
 
   & *
   & *:before
